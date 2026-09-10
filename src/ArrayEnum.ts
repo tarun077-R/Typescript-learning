@@ -204,3 +204,48 @@ function makeChai(type: ChaiType) {
 
 // ChaiType enum mein se GINGER member pass kar rahe hain
 makeChai(ChaiType.GINGER);
+
+// =====================================================
+//        ARRAY vs TUPLE
+// =====================================================
+
+
+// ARRAY
+// Array mein generally same type ke multiple values hote hain
+// Array ki length fixed nahi hoti
+// Naye elements add ya remove kar sakte hain
+
+let flavours: string[] = ["Masala", "Ginger", "Elaichi"];
+
+flavours.push("Lemon"); // ✅ Allowed
+
+
+
+// TUPLE
+// Tuple mein fixed structure define hota hai
+// Har position ka type pehle se define hota hai
+// Example: first value string aur second value number
+
+let chaiInfo: [string, number] = ["Masala", 25];
+
+
+// =====================================================
+// DIFFERENCE
+// =====================================================
+
+// Array
+// → LIST of values
+// → Usually same type
+// → Length flexible
+// → Example: string[]
+
+// Tuple
+// → FIXED FORMAT of values
+// → Different types ho sakte hain
+// → Position aur type important
+// → Example: [string, number]
+
+
+// MEMORY TRICK
+// Array = LIST
+// Tuple = FIXED FORMAT

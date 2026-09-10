@@ -245,4 +245,4 @@ const cfg: Config = {
 // appName readonly hai,
 // isliye create hone ke baad iski value change nahi kar sakte.
 
-cfg.appName = "Raju";
+// cfg.appName = "Raju";
