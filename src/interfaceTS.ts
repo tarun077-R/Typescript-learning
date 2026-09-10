@@ -235,7 +235,7 @@ type Config = {
 // Object create karte time value set kar sakte hain
 const cfg: Config = {
 
-    appName: "Masterji",
+    appName: "Tarunji",
     version: 4
 
 };
