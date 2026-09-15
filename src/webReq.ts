@@ -1,5 +1,6 @@
 // Axios aur AxiosResponse type import kar rahe hain
-import axios, { AxiosResponse } from "axios";
+import axios from "axios";
+import type { AxiosResponse } from "axios";
 
 // API se aane wale Todo data ka structure
 interface Todo {
