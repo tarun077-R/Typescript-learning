@@ -1,3 +1,4 @@
+import { Card } from './components/Card'
 import { ChaiCard } from './components/ChaiCard'
 import { ChaiList } from './components/ChaiList'
 import { Counter } from './components/Counter'
@@ -33,6 +34,9 @@ const App = () => {
       <OrderForm onSubmit={(order)=>{
         console.log("Placed",order.name,order.cups)
       }}/>
+      </div>
+      <div>
+        <Card title="chai with tarun" footer={<button>Order Now</button>}/>
       </div>
     </>
   )
