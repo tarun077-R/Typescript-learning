@@ -1,6 +1,7 @@
 import { ChaiCard } from './components/ChaiCard'
 import { ChaiList } from './components/ChaiList'
 import { Counter } from './components/Counter'
+import { OrderForm } from './components/OrderForm'
 import type {Chai} from "./types"
 
 const App = () => {
@@ -27,6 +28,11 @@ const App = () => {
       </div>
       <div>
         <ChaiList items={menu}/>
+      </div>
+    <div>
+      <OrderForm onSubmit={(order)=>{
+        console.log("Placed",order.name,order.cups)
+      }}/>
       </div>
     </>
   )
